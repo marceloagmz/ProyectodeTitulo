@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="title_activity_contenedor_instrucciones">ContenedorInstruccionesActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="texto_instruccion_final">Ahora puedes empezar a jugar</string>
+
+    <string name="texto_instrucciones_informacion">..... </string>
+
+    <string name="texto_instruccion_user">
+        El nombre de usuario es fundamental, ya qué nos permitirá saber qué usuario ha jugado y cual es su posición en el ranking, presiona esta opción si quieres ingresar un nuevo jugador.
+    </string>
+    <string name="texto_instrucciones_instrucciones">
+        Desde aquí podrás regresar a consultar las instrucciones del juego.
+    </string>
+    <string name="texto_instrucciones_ranking">
+        Consulta el ranking de puntos obtenidos en cada partida.
+    </string>
+    <string name="texto_instrucciones_ajustes">
+        Ajusta el modo de juego, puedes definir jugar por tiempo, por intentos, ajustar la duración en pantalla de la palabra, entre otros elementos de configuración.
+    </string>
+    <string name="texto_instrucciones_play">
+        Desde aquí podrás medir tu retentiva probando el test de Stroop a modo de juego, en el que deberás indicar si el nombre del color corresponde al color de la palabra.
+    </string>
+    <string name="texto_instrucciones_introduccion">
+            Esta aplicación permite a traves de juegos detectar cambios en los estados de animo del usuario por medio del Test de Stroop.
+    </string>
+    <string name="info_acerca_de">
+        Esta aplicación permite a traves de juegos detectar cambios en los estados de animo del usuario por medio del Test de Stroop.
+    </string>
+
+    <string name="none_paired">Ningun dispositivo pudo ser emparejado...</string>
+</resources>
