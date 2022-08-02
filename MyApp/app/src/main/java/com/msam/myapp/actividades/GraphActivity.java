@@ -40,15 +40,15 @@ public class GraphActivity extends AppCompatActivity {
         context = this;
 
         float[] x = new float[100];
-        float[] y = new float[420];
+        float[] y = new float[mensaje];
 
         for (int i=0; i<x.length; i++)
             x[i] = i;
 
         for (int i=0; i<y.length; i++)
-            y[i] = (int) (Math.random()*20)+1;
+            y[i] = (int) mensaje;
 
-        plot = new PlotPlanitoXY(context,"Señal GSR","Tiempo","Resistividad (Siemens)");
+        plot = new PlotPlanitoXY(context,"Señal GSR","Tiempo (s)","Resistividad (Siemens)");
         plot.SetSerie1(x,y,"graph 1",5,true);
         plot.SetHD(true);
 
